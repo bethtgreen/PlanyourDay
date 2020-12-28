@@ -1,6 +1,8 @@
 # PlanyourDay
-day planner
-This is a day planner. Simple planner that lets you record and save events at each hour of the day. 
+
+This is a day planner.
+
+Simple planner that lets you record and save events at each hour of the day. 
 
 Each timeblock is color coded to indicate whether it is in a past, present, or future hour.
 
