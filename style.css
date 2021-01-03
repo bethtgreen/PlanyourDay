@@ -1,0 +1,141 @@
+body {
+    /* font and size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+  
+    /* fix navbar*/
+    padding-top: 90px;
+    vertical-align: middle;
+  }
+  
+  #background {
+      
+      
+  }
+  
+  
+  /*  need to make box fit space */
+  input {
+    background: transparent;
+    border: none;
+  
+    /* so cursor appears */
+    padding-left: 3px;
+  }
+  
+  
+  .navbar {
+    /* background-color   */
+    background-color: #054b2d;  
+    color: #b6d7e2;  
+  
+    /* pulls everything down to push up against bottom border */
+    padding-bottom: 0;
+    
+    /* creates solid line for the bottom border  */
+    border-bottom: solid;
+    border-bottom-color: #ccc;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #navbar-title {
+    padding: 0px;
+    font-size: 30px;
+    color: linen!important; /* TODO can we do this without the !important */
+    text-align: center;
+  }
+  
+  #navbar-subtitle {
+    padding: 2px;
+    font-size: 15px;
+    color: linen!important; /* TODO can we do this without the !important */
+    text-align: center;
+  }
+  
+  .col-md-1, .col-md-2, .col-md-9 {
+    padding: 0;
+  }
+  
+  /* #planner */
+  #plannerContainer {
+    /* background-color: #73919b;   */
+    background-color: #41c0a6;  
+    /* provides spacing between the top and bottom nav bars and the content */
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+    /* provide spaceing around the text */
+    padding: 40px;
+  } 
+  
+  .plannerRow {
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 15px;
+  }
+  
+  /* style container with time in it */
+  .timeBox {
+    background-color: rgb(90, 157, 148);  
+    color: black;
+    height:100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+    display: inline-block;
+    font-size: 1em;
+  }
+  
+  /* style container with daily plan */
+  .dailyPlan {
+    color: black;  
+    font-size: 12pt;
+    height:100%;
+    width: 100%;
+  }
+  
+  .saveIcon {
+    background-color: rgb(39, 130, 131);
+    color: rgb(12, 9, 4);
+    border-radius: 0px 15px 15px 0px;
+    /* float: right; */
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .footer {
+    /* set text properties */
+    background-color: rgb(7, 62, 47);
+    
+    /* sets height of footer*/
+    height: 10%;
+    
+    /* sets properties for footer border*/
+    border-top: solid;
+    border-top-color: #d8af7c;  
+    border-top-width: 8px;
+  }
+  
+  .footer-text, .header-text {
+    /* forces text across the entire screen so it has a center */
+    width: 100%;
+    text-align: center;
+  
+    font-size: 10px;
+    color:linen; 
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+  
+  .wrapper
+  { 
+    padding: 20px;     
+  } 
+  
