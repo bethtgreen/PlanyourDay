@@ -1,42 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day Planner</title>
 </head>
+
 <body>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6cbff65fb8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
 
     <title>Beth's Planner</title>
-  </head>
-  <body>
-      <!--Background picture-->
-      <img id= "background" src="wp4021674.jpg" alt="background pic">
-    <!-- <ul id="planner"> </ul> -->
-    <nav class="navbar fixed-top">
-        <div class="header-text">
-            <h1 id="navbar-title">Plan Your Day</h1>
-            <h2 id="navbar-subtitle"></h2>
+    </head>
+
+    <body>
+
+        <!-- <ul id="planner"> </ul> -->
+        <nav class="navbar fixed-top">
+            <div class="header-text">
+                <h1 id="navbar-title">Plan Your Day</h1>
+                <h2 id="navbar-subtitle"></h2>
+            </div>
+        </nav>
+        <!-- <div id="plannerContainer"> </div> -->
+        <div class="container">
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    9AM
+                </div>
+                <textarea id="hour-9" class="col-md-10 description" value = "9"></textarea>
+                <button class="btn saveBtn col-md-1" value = "0"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    10AM
+                </div>
+                <textarea  id="hour-10" class="col-md-10 description" value = "10"></textarea>
+                <button class="btn saveBtn col-md-1" value="1"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    11AM
+                </div>
+                <textarea id="hour-11" class="col-md-10 description" value = "11"></textarea>
+                <button class="btn saveBtn col-md-1" value="2"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    12PM
+                </div>
+                <textarea id="hour-12"  class="col-md-10 description" value = "12"></textarea>
+                <button class="btn saveBtn col-md-1" value= "3"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div  class="row time-block">
+                <div class="col-md-1 hour">
+                    1PM
+                </div>
+                <textarea id="hour-13" class="col-md-10 description" value = "13"></textarea>
+                <button class="btn saveBtn col-md-1" value= "4"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    2PM
+                </div>
+                <textarea id="hour-14" class="col-md-10 description" value = "14"></textarea>
+                <button class="btn saveBtn col-md-1" value= "5"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    3PM
+                </div>
+                <textarea id="hour-15" class="col-md-10 description" value = "15"></textarea>
+                <button class="btn saveBtn col-md-1" value="6"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div class="row time-block">
+                <div class="col-md-1 hour">
+                    4PM
+                </div>
+                <textarea id="hour-16" class="col-md-10 description" value = "16"></textarea>
+                <button class="btn saveBtn col-md-1" value="7"><i class="fas fa-save"></i></button>
+
+            </div>
+            <div  class="row time-block">
+                <div class="col-md-1 hour">
+                    5PM
+                </div>
+                <textarea id="hour-17" class="col-md-10 description" value = "17"></textarea>
+                <button class="btn saveBtn col-md-1" value="8"><i class="fas fa-save"></i></button>
+
+            </div>
+
         </div>
-    </nav>
-    <!-- <div id="plannerContainer"> </div> -->
-      <form id='formPlanner'>
-    <div class="container" id="plannerContainer">
-    </div>    
-      </form>
 
-  <!-- Start Footer -->
-    <nav class="navbar fixed-bottom footer">
-        <div class="footer-text">Beth's Website</div>
-    </nav>
+        <!-- Start Footer -->
+        <nav class="navbar fixed-bottom footer">
+            <div class="footer-text">Beth's Website</div>
+        </nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
-    <script src='script.js'></script>
-  </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"
+            integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+        <script src='script.js'></script>
+    </body>
+
 </html>
