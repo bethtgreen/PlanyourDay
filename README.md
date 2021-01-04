@@ -1,5 +1,9 @@
 # PlanyourDay
 
+Planner updates itself to current hour. 
+
+User inputs what they need to accomplish for the day and planner saves in local storage. 
+
 This is a day planner.
 
 Simple planner that lets you record and save events at each hour of the day. 
@@ -12,10 +16,10 @@ WHEN the employee clicks the save button
 
 THEN events are saved in the timeblock for that hour
 
-i want to add an alert that shows up if its past business hours that says "Get some rest! You did good today." or " Yay! You finished everything on your schedule!"
 
-I also want can't figure out how to set my background image behind the schedule
+link to application: 
 
 
-How to add more unique font?
+screenshots of application:
 
+![Alt text](./images/screenshot1.png "planner page")
